@@ -1,0 +1,19 @@
+@media all and (min-width: 720px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: inline; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+    #main_nav{
+        align-items: center;
+    }
+    #abcd{
+        width: auto;
+        align-items: center;
+    }
+    #xyz{
+        left: auto;
+        position: relative;
+        font-family: Algerian;
+        color: rgb(12, 68, 114);
+    }
+}
